@@ -29,8 +29,8 @@ a random hard disk and only accepted if it leads to a legal configuration where 
 with the wall.
 
 This script samples the positions of all four hard disks after a given number of (proposed) Metropolis moves and prints
-them to stdout. The (2 * k)th float in the output is the the x position of the kth disk, while the (2 * k + 1)th float is 
-the y position of the kth disk.  
+them to stdout. The (2 * k)th and (2 * k + 1)th floats in the output are the x- and y-positions of the kth disk,
+respectively.
 
 The modifiable parameters are contained in a single code block below.
 """
