@@ -25,7 +25,8 @@ The full repository will contain:
    - [ ] Equations of states visualization (Python)
 
 - [ ] Four-disk non-periodic-box programs (Python)
-   - [x] Sampling program using Metropolis algorithm (Python)
+   - [x] Sampling program using Metropolis algorithm (Python, see the 
+         [Python/four-disk/Metropolis_disks_box.py](Python/four-disk/Metropolis_disks_box.py) script)
    - [ ] Sampling program using Molecular dynamics with pressure estimators (Python)
    - [ ] Sampling program using straight ECMC with pressure estimators (Python)
    - [ ] Sampling program using reflective ECMC (Python)
@@ -48,13 +49,15 @@ The full repository will contain:
    - [ ] Global Orientational order parameter calculation (Python)
    - [ ] Confidence-interval calculation (Python)
 
-The programs that are already in the repository is marked as a completed task.
+Completed tasks that are marked in the list above are already contained in this version of the repository.
 
 ## Installing
 
-The Python scripts can be executed with any Python3 implementation without any further requirements.
+The currently contained Python scripts can be executed with any Python3 implementation without any further requirements.
+The docstrings in the Python scripts provide further information on their parameters and their output.
 
 ## Authors 
+
 Check the [AUTHORS.md](AUTHORS.md) file to see who participated in this project.
 
 ## License
@@ -72,5 +75,5 @@ If you use (parts of the) the programs in published work, please cite the follow
 [[Li2022]](https://arxiv.org/abs/2207.07715) in [References.bib](References.bib)):
 
 Botao Li, Yoshihiko Nishikawa, Philipp Höllmer, Louis Carillo, A. C. Maggs, and Werner Krauth,\
-Hard-disk computer simulations---a historic perspective,\
+Hard-disk computer simulations&mdash;a historic perspective,\
 arXiv e-prints: 2207.07715 (2022), https://arxiv.org/abs/2207.07715.

@@ -20,14 +20,31 @@
 # Hard-disk computer simulations---a historic perspective,
 # arXiv e-prints: 2207.07715 (2022), https://arxiv.org/abs/2207.07715.
 #
+"""
+Executable Python script that samples the positions of four hard-disks in a non-periodic square box of side length 1.0
+using the Metropolis algorithm.
+
+In each Metropolis trial, a move is uniformly sampled from a square of side length 2 * delta. This move is proposed for
+a random hard disk and only accepted if it leads to a legal configuration where no hard disks overlap with each other or
+with the wall.
+
+This script samples the positions of all four hard disks after a given number of (proposed) Metropolis moves and prints
+them to stdout. The (2 * k)th float in the output is the the x position of the kth disk, while the (2 * k + 1)th float is 
+the y position of the kth disk.  
+
+The modifiable parameters are contained in a single code block below.
+"""
 import random
 
+###### Start of modifiable parameters ######
+sigma = 0.15  # The radius of the hard-disks.
+delta = 0.1  # The range of the proposed Metropolis move.
+n_samples = 1  # The total number of samples that will be taken before this script finishes.
+sampling_interval = 5000  # The number of (proposed) Metropolis moves between two samples.
+######  End of modifiable parameters  ######
+
 pos = [[0.25, 0.25], [0.75, 0.25], [0.25, 0.75], [0.75, 0.75]]
-sigma = 0.15
 sigma_sq = sigma ** 2
-delta = 0.1
-n_samples = 1000000
-sampling_interval = 5000
 for sample in range(n_samples * sampling_interval):
     a = random.choice(pos)
     b = [a[0] + random.uniform(-delta, delta), a[1] + random.uniform(-delta, delta)]
