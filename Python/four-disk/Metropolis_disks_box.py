@@ -37,9 +37,9 @@ The modifiable parameters are contained in a single code block below.
 import random
 
 ###### Start of modifiable parameters ######
-sigma = 0.15  # The radius of the hard-disks.
+sigma = 0.15  # The radius of the hard disks.
 delta = 0.1  # The range of the proposed Metropolis move.
-n_samples = 1  # The total number of samples that will be taken before this script finishes.
+n_samples = 10000  # The total number of samples that will be taken before this script finishes.
 sampling_interval = 5000  # The number of (proposed) Metropolis moves between two samples.
 ######  End of modifiable parameters  ######
 
@@ -52,5 +52,5 @@ for sample in range(n_samples * sampling_interval):
     box_cond = min(b[0], b[1]) < sigma or max(b[0], b[1]) > 1.0 - sigma
     if not (box_cond or min_dist < 4.0 * sigma ** 2):
         a[:] = b
-    if sample % sampling_interval == 0:
+    if (sample + 1) % sampling_interval == 0:
         print(*iter(comp for s in pos for comp in s))
