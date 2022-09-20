@@ -10,14 +10,16 @@ pressures that are presented in the work above. Furthermore, this repository con
 and molecular dynamics implementations for the hard-disk model, several pressure estimators, as well as a 
 state-of-the-art implementations of the hard-disk event-chain Monte Carlo algorithm.
 
-## Version 0.1
+## Version 0.2
 
-In its current version 0.1, this repository serves as a preview for the complete version 1 that is expected to be 
+In its current version 0.2, this repository serves as a preview for the complete version 1 that is expected to be 
 finished in September 2022. In order to demonstrate the overall style of the programs, this preview version contains 
 sampling programs for four hard disks in a non-periodic box that use the Metropolis algorithm, event-driven 
 molecular dynamics, or four variants (straight, reflective, forward, and Newtonian) of the event-chain Monte 
-Carlo (ECMC) algorithm. We also provide a Python script that computes the pressure from hard-disk configurations by 
-fitting a polynomial to the estimated pair-correlation function and the rescaled line density.
+Carlo (ECMC) algorithm. The preview version also contains naive sampling programs for an arbitrary number of hard 
+disks in a periodic box using all algorithms implemented in the four-disk programs. We also provide a Python script 
+that computes the pressure from hard-disk configurations by fitting a polynomial to the estimated pair-correlation 
+function and the rescaled line density.
 
 ## List of programs
 The full repository will contain:
@@ -40,13 +42,13 @@ The full repository will contain:
    - [x] Sampling program using Newtonian ECMC (Python, see the
          [Python/four-disk/ECMC_Newtonian_disks_box.py](Python/four-disk/ECMC_Newtonian_disks_box.py) script)
    
-- [ ] Naive periodic-box programs
-   - [ ] Sampling program using Metropolis algorithm (Python)
-   - [ ] Sampling program using Molecular dynamics (Python)
-   - [ ] Sampling program using straight ECMC with pressure estimators (Python)
-   - [ ] Sampling program using reflective ECMC (Python)
-   - [ ] Sampling program using forward ECMC (Python)
-   - [ ] Sampling program using Newtonian ECMC (Python)
+- [x] Naive periodic-box programs
+   - [x] Sampling program using Metropolis algorithm (Python)
+   - [x] Sampling program using Molecular dynamics (Python)
+   - [x] Sampling program using straight ECMC with pressure estimators (Python)
+   - [x] Sampling program using reflective ECMC (Python)
+   - [x] Sampling program using forward ECMC (Python)
+   - [x] Sampling program using Newtonian ECMC (Python)
 
 - [ ] State-of-the-art hard-disk programs
    - [ ] Sampling program using straight ECMC with pressure estimators (C++)
