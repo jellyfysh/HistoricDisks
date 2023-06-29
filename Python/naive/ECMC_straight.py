@@ -152,4 +152,4 @@ for sample in range(args.n_samples * args.n_chains):
         sum_delta_x = [0, 0]
         sum_chain_time = [0, 0]
         print(*iter(comp for s in pos for comp in s))
-    direction = 1 - direction
+    direction = random.randint(0, 1)
