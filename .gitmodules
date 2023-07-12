@@ -1,0 +1,3 @@
+[submodule "CPP/StraightECMC/HighFive"]
+	path = CPP/StraightECMC/HighFive
+	url = https://github.com/BlueBrain/HighFive.git
