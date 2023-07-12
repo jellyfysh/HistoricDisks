@@ -1,0 +1,21 @@
+"Author = Nicholas Metropolis, Arianna W. Rosenbluth, Marshall N. Rosenbluth, and Augusta H. Teller, and Edward Teller",,
+Year = 1953,,
+Title = Equation of State Calculations by Fast Computing Machines,,
+"Journal reference = J. Chem. Phys. 21, 1087 (1953)",,
+Url =  https://doi.org/10.1063/1.1699114,,
+Data source = Figure 4 for y values and Table I for x values,,
+Extraction method = copy-paste and WebPlotDigitizer 4.5,,
+Comment = unit converted from V / V_0 - 1 and beta P V / N - 1 to V / V_0 and beta P V_0 / N,,
+Label = Metropolis 1953,,
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 224,Aspect ratio = (1:1),Boundary condition = periodic
+X unit = V / V_0,Y unit = beta P V_0 / N,type = error bar
+1.04269,47.4,1.9
+1.14957,12.44,0.63
+1.31966,5.72,0.45
+1.4909,3.73,0.22
+1.7962,2.203,0.060
+2.04616,1.580,0.030
+2.41751,1.032,0.051
+4.04145,0.4166,0.0054

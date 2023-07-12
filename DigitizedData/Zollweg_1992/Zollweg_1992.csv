@@ -1,0 +1,46 @@
+Author = John A. Zollweg and Geoffrey V. Chester,,
+Year = 1992,,
+Title = Melting in two dimensions,,
+"Journal reference = Phys. Rev. B 46, 11186(R)",,
+Url = https://doi.org/10.1103/PhysRevB.46.11186,,
+"Data source = Figure 1 for data with marker size, table I for data with error bar",,
+Extraction method = copy-paste and WebPlotDigitizer 4.4,,
+Label = Zollweg 1992,,
+Comment = paper mentioned message passing,,
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 128^2,Aspect ratio = (1 :\sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.879,7.7620,0.0030
+0.885,7.8900,0.0040
+0.891,7.9400,0.0080
+0.898,7.9520,0.0080
+0.904,7.9410,0.0050
+0.91,7.9780,0.0070
+0.917,8.0340,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 64^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = marker size
+0.8531,6.918,0.025
+0.86581,7.382,0.025
+0.92319,8.125,0.025
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 64^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.885,7.894,0.010
+0.898,7.835,0.011
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 32^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = marker size
+0.8531,6.912,0.023
+0.86581,7.388,0.023
+0.91675,7.885,0.025
+0.9231,8.125,0.021
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 32^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.898,7.822,0.014

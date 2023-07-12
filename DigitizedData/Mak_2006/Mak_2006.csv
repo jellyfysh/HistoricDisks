@@ -1,0 +1,38 @@
+Author = C. H. Mak,,
+Year = 2006,,
+Title = Large-scale simulations of the two-dimensional melting of hard disks,,
+"Journal reference = Phys. Rev. E 73, 065104(R)",,
+Url = https://doi.org/10.1103/PhysRevE.73.065104,,
+Data source = Figure 1 for first 5 points with N = 512^2 and inset of Figure 1 for the rest,,
+Extraction method = WebPlotDigitizer 4.4,,
+Label = Mak 2006,,
+Comment = sampling method is a mixture of Metropolis algorithm and cluster algorithm and aspect ratio is 1 for low density and \sqrt{3} : 2 for large density,,
+,,
+Sampling method = mixed,Pressure calculation method = fitting g(r),
+N = 512^2,Aspect ratio = mixed,Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = marker size
+0.88007,7.7976,0.0055
+0.88505,7.8967,0.0055
+0.89003,7.9526,0.0055
+0.91506,7.9739,0.0055
+0.92004,8.1006,0.0058
+0.895,7.9592,0.0017
+0.90003,7.9527,0.0019
+0.90499,7.9501,0.0023
+0.90998,7.9419,0.0023
+,,
+Sampling method = mixed,Pressure calculation method = fitting g(r),
+N = 1024^2,Aspect ratio = mixed,Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = marker size
+0.895,7.9601,0.0012
+0.90003,7.9595,0.0014
+0.90499,7.9569,0.0013
+0.90998,7.9468,0.0013
+,,
+Sampling method = mixed,Pressure calculation method = fitting g(r),
+N = 2048^2,Aspect ratio = mixed,Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = marker size
+0.895,7.9570,0.0023
+0.90003,7.9551,0.0022
+0.90499,7.9541,0.0023
+0.90998,7.9479,0.0024

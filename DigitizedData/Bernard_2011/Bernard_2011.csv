@@ -1,0 +1,56 @@
+Author = Etienne P. Bernard and Werner Krauth,,
+Year = 2011,,
+Title = Two-Step Melting in Two Dimensions: First-Order Liquid-Hexatic Transition,,
+"Journal reference = Phys. Rev. Lett. 107, 155704",,
+Url = https://doi.org/10.1103/PhysRevLett.107.155704,,
+Data source = original data provided by the authors,,
+Extraction method = copy-paste,,
+Label = Bernard 2011,,
+,,
+Sampling method = straight ECMC,Pressure calculation method = fitting g(r),
+N = 1024^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698,9.169311,0.000073
+0.700,9.18545,0.00011
+0.702,9.18800,0.00014
+0.704,9.18692,0.00012
+0.706,9.18553,0.00011
+0.708,9.18502,0.00010
+0.710,9.18425,0.00011
+0.712,9.18354,0.00011
+0.714,9.18218,0.00013
+0.716,9.18336,0.00012
+0.718,9.19495,0.00020
+0.720,9.22765,0.00025
+,,
+Sampling method = straight ECMC,Pressure calculation method = fitting g(r),
+N = 512^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698,9.16998,0.00014
+0.700,9.18599,0.00019
+0.702,9.18993,0.00033
+0.704,9.18829,0.00033
+0.706,9.18564,0.00032
+0.708,9.18416,0.00028
+0.710,9.18211,0.00028
+0.712,9.18104,0.00026
+0.714,9.18027,0.00021
+0.716,9.18230,0.00026
+0.718,9.19366,0.00014
+0.720,9.23246,0.00070
+,,
+Sampling method = straight ECMC,Pressure calculation method = fitting g(r),
+N = 256^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698,9.17080,0.00025
+0.700,9.18846,0.00025
+0.702,9.19240,0.00024
+0.704,9.18870,0.00027
+0.706,9.18584,0.00029
+0.708,9.18178,0.00021
+0.710,9.17904,0.00021
+0.712,9.17687,0.00029
+0.714,9.17582,0.00029
+0.716,9.17791,0.00026
+0.718,9.18577,0.00061
+0.720,9.2266,0.0016

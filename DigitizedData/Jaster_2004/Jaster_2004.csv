@@ -1,0 +1,56 @@
+Author = A. Jaster,,
+Year = 2004,,
+Title = The hexatic phase of the two-dimensional hard disks system,,
+Journal reference = Phys. Lett. A 330 (2004) 120,,
+Url = https://doi.org/10.1016/j.physleta.2004.07.055,,
+Data source = Table II,,
+Extraction method = copy-paste,,
+Label = Jaster 2004,,
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 1024^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0410,0.0070
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 512^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0340,0.0030
+0.914,7.9750,0.0030
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 512^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0380,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 256^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.021,0.010
+0.914,7.9680,0.0030
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 256^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0290,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 128^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0500,0.0040
+0.914,7.9210,0.0060
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 128^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0190,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 64^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,8.0220,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 32^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.918,7.947,0.012

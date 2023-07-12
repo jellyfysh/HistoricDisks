@@ -1,0 +1,88 @@
+"Author = Michael Engel, Joshua A. Anderson, Sharon C. Glotzer, Masaharu Isobe, Etienne P. Bernard, and Werner Krauth",,
+Year = 2013,,
+Title = Hard-disk equation of state: First-order liquid-hexatic transition in two dimensions with three simulation methods,,
+"Journal reference = Phys. Rev. E 87, 042134",,
+Url = http://dx.doi.org/10.1103/PhysRevE.87.042134,,
+Data source = original data provided by the authors,,
+Extraction method = copy-paste,,
+Label = Engel 2013,,
+,,
+Sampling method = MPMC,Pressure calculation method = fitting g(r),
+N = 1024^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698000,9.169342,0.000023
+0.700000,9.185405,0.000085
+0.702000,9.18818,0.00016
+0.704000,9.18674,0.00014
+0.706000,9.18587,0.00018
+0.708000,9.184959,0.000061
+0.710000,9.18415,0.00017
+0.712000,9.183379,0.000070
+0.714000,9.18195,0.00024
+0.716000,9.18327,0.00010
+0.718000,9.19507,0.00020
+0.720000,9.23083,0.00080
+,,
+Sampling method = MPMC,Pressure calculation method = fitting g(r),
+N = 512^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698000,9.16994,0.00026
+0.700000,9.18610,0.00011
+0.702000,9.19002,0.00013
+0.704000,9.18816,0.00013
+0.706000,9.186067,0.000088
+0.708000,9.18424,0.00011
+0.710000,9.182809,0.000080
+0.712000,9.18116,0.00011
+0.714000,9.179945,0.000095
+0.716000,9.18212,0.00020
+0.718000,9.19302,0.00024
+0.720000,9.2269,0.0020
+,,
+Sampling method = EDMD,Pressure calculation method = virial formula,
+N = 512^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698,9.169588,0.000091
+0.700,9.18640,0.00047
+0.702,9.18996,0.00046
+0.704,9.18966,0.00076
+0.706,9.18564,0.00044
+0.708,9.18445,0.00054
+0.710,9.18287,0.00035
+0.712,9.18132,0.00054
+0.714,9.18007,0.00036
+0.716,9.18282,0.00072
+0.718,9.19566,0.00090
+0.720,9.32450,0.00059
+,,
+Sampling method = MPMC,Pressure calculation method = fitting g(r),
+N = 256^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698000,9.170780,0.000045
+0.700000,9.187831,0.000098
+0.702000,9.191999,0.000090
+0.704000,9.18881,0.00012
+0.706000,9.185404,0.000080
+0.708000,9.18216,0.00012
+0.710000,9.17921,0.00012
+0.712000,9.17690,0.00010
+0.714000,9.175513,0.000091
+0.716000,9.17769,0.00023
+0.718000,9.18685,0.00054
+0.720000,9.248,0.018
+,,
+Sampling method = EDMD,Pressure calculation method = virial formula,
+N = 256^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = packing fraction,Y unit = beta P (2 sigma)^2,type = error bar
+0.698,9.17059,0.00018
+0.700,9.18896,0.00024
+0.702,9.19144,0.00036
+0.704,9.18903,0.00039
+0.706,9.18585,0.00036
+0.708,9.18226,0.00026
+0.710,9.17914,0.00029
+0.712,9.17715,0.00021
+0.714,9.17563,0.00034
+0.716,9.17823,0.00041
+0.718,9.18468,0.00060
+0.720,9.22350,0.00075

@@ -1,0 +1,37 @@
+Author = B. J. Alder and T. E. Wainwright,,
+Year = 1962,,
+Title = Phase Transition in Elastic Disks,,
+"Journal reference = Phys. Rev. 127, 359",,
+Url = https://doi.org/10.1103/PhysRev.127.359,,
+Data source = Figure 1,,
+Extraction method = WebPlotDigitizer 4.4,,
+Label = Alder 1962,,
+,,
+Sampling method = EDMD,Pressure calculation method = virial formula,
+N = 870,Aspect ratio = unknown,Boundary condition = periodic
+X unit = V / V_0,Y unit = beta P V_0 / N,type = error bar
+1.25028,8.250,0.044
+1.26022,7.980,0.093
+1.26046,7.844,0.034
+1.27039,7.63,0.12
+1.27545,7.51,0.19
+1.28043,7.67,0.15
+1.28565,7.71,0.18
+1.29026,7.720,0.091
+1.29568,7.762,0.093
+1.30068,7.86,0.12
+1.30571,7.83,0.10
+1.31076,7.753,0.099
+1.32065,7.64,0.10
+1.33076,7.444,0.016
+,,
+Sampling method = EDMD,Pressure calculation method = virial formula,
+N = 72,Aspect ratio = unknown,Boundary condition = periodic
+X unit = V / V_0,Y unit = beta P V_0 / N,type = marker size
+1.25013,8.078,0.014
+1.30039,6.858,0.012
+1.31027,6.793,0.012
+1.33032,6.326,0.012
+1.35072,6.039,0.012
+1.35016,7.170,0.012
+1.33034,7.553,0.012

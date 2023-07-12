@@ -1,0 +1,23 @@
+"Author =  Weikai Qi, Anjan P. Gantapara and Marjolein Dijkstra",,
+Year = 2014,,
+Title = Two-stage melting induced by dislocations and grain boundaries in monolayers of hard spheres,,
+"Journal reference = Soft Matter, 2014,10, 5449-5457",,
+Url = https://doi.org/10.1039/C4SM00125G,,
+Data source = Supplementary Material FIG. 2,,
+"Extraction method = WebPlotDigitizer 4.5, screenshot preprocessed",,
+Label = Qi 2014,,
+,,
+Sampling method = 3D EDMD with spheres confined in 2D,Pressure calculation method = Virial formula,
+N = 1024^2,Aspect ratio = (1 : \sqrt{3} / 2),Boundary condition = periodic
+X unit = v / (2 sigma)^2,Y unit = beta P (2 sigma)^2,type = marker_size
+1.0938655462184876,9.19342,0.00052
+1.0969243697478992,9.17957,0.00048
+1.099983193277311,9.17523,0.00048
+1.103109243697479,9.17589,0.00052
+1.106201680672269,9.18083,0.00052
+1.109327731092437,9.18257,0.00052
+1.112453781512605,9.18587,0.00043
+1.1156470588235294,9.19121,0.00048
+1.1188067226890757,9.19077,0.00048
+1.1219999999999999,9.18912,0.00048
+1.1252268907563026,9.16898,0.00048

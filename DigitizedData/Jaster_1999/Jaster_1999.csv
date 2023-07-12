@@ -1,0 +1,55 @@
+Author = A. Jaster,,
+Year = 1999,,
+Title = Computer simulations of the two-dimensional melting transition using hard disks,,
+"Journal reference = Phys. Rev. E 59, 2594",,
+Url = https://doi.org/10.1103/PhysRevE.59.2594,,
+Data source = Table II,,
+Extraction method = copy-paste,,
+Label = Jaster 1999,,
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 256^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.88,7.7950,0.0080
+0.885,7.8950,0.0090
+0.89,7.9930,0.0050
+0.898,7.9540,0.0040
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 128^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.88,7.7960,0.0070
+0.885,7.8990,0.0080
+0.89,7.9500,0.0090
+0.895,7.9630,0.0090
+0.897,7.9560,0.0070
+0.898,7.9550,0.0050
+0.9,7.9510,0.0070
+0.905,7.9430,0.0080
+0.91,7.9280,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 64^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.88,7.7990,0.0060
+0.885,7.9000,0.0060
+0.89,7.9500,0.0070
+0.895,7.9530,0.0090
+0.897,7.9400,0.0060
+0.898,7.9340,0.0090
+0.9,7.9280,0.0090
+0.905,7.9010,0.0090
+0.91,7.9000,0.0050
+,,
+Sampling method = Metropolis,Pressure calculation method = fitting g(r),
+N = 32^2,Aspect ratio = (1 : 1),Boundary condition = periodic
+X unit = reduced density,Y unit = beta P V_0 / N,type = error bar
+0.88,7.8030,0.0050
+0.885,7.8940,0.0050
+0.89,7.9260,0.0050
+0.895,7.9100,0.0060
+0.897,7.9050,0.0060
+0.898,7.8920,0.0060
+0.9,7.8970,0.0070
+0.905,7.9060,0.0060
+0.91,7.9160,0.0050

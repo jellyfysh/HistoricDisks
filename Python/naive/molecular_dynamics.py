@@ -16,9 +16,9 @@
 # If not, see <https://www.gnu.org/licenses/>.
 #
 # If you use HistoricDisks in published work, please cite the following reference (see [Li2022] in References.bib):
-# Botao Li, Yoshihiko Nishikawa, Philipp Höllmer, Louis Carillo, A. C. Maggs, and Werner Krauth,
-# Hard-disk computer simulations---a historic perspective,
-# arXiv e-prints: 2207.07715 (2022), https://arxiv.org/abs/2207.07715.
+# Botao Li, Yoshihiko Nishikawa, Philipp Höllmer, Louis Carillo, A. C. Maggs, Werner Krauth;
+# Hard-disk pressure computations—a historic perspective.
+# J. Chem. Phys. 21 December 2022; 157 (23): 234111. https://doi.org/10.1063/5.0126437
 #
 """
 Executable Python script that samples the positions of hard disks in a periodic box using event-driven molecular
