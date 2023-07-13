@@ -23,7 +23,7 @@
 """Executable Python script that plots data groups"""
 from enum import Enum
 import math
-from typing import List, Optional, Sequence, Union
+from typing import List, Optional, Sequence, Union, Tuple
 import matplotlib.axes
 import matplotlib.figure
 import matplotlib.pyplot as plt
@@ -62,7 +62,7 @@ class Zoom(Enum):
 
 
 def plot_init(xmin: float = 1.24, xmax: float = 1.36, ymin: float = 6.0, ymax: float = 9.0,
-              zoomed: Zoom = Zoom.NONE) -> (matplotlib.figure.Figure, matplotlib.axes.Axes):
+              zoomed: Zoom = Zoom.NONE) -> Tuple[matplotlib.figure.Figure, matplotlib.axes.Axes]:
     """
     Set up the canvas of the plot.
 
@@ -231,7 +231,7 @@ def plot(data_group: DataGroup, host: matplotlib.axes.Axes, marker: str, indices
         The labels for the data to be plotted. By default (None), the format is
         "(data group title), ($\alpha = aspect ratio$)".
     """
-    dataset = data_group.datas
+    dataset = data_group.data
     title = data_group.title
     if indices is None:
         indices = np.arange(0, len(dataset), 1, dtype=int)

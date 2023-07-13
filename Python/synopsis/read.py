@@ -211,10 +211,10 @@ class DataGroup(object):
     ----------
     title : str
         The title.
-    datas : List[Data]
-        The datas.
+    data : List[Data]
+        The data.
     """
-    def __init__(self, title: str, datas: List[Data]) -> None:
+    def __init__(self, title: str, data: List[Data]) -> None:
         """
         Initialize the data group.
 
@@ -222,11 +222,11 @@ class DataGroup(object):
         ----------
         title : str
             The title.
-        datas : List[Data]
-            The datas.
+        data : List[Data]
+            The data.
         """
         self.title = title
-        self.datas = datas
+        self.data = data
 
     def __str__(self) -> str:
         """
@@ -239,7 +239,7 @@ class DataGroup(object):
         """
         print_string = "------------" + "-" * len(self.title)
         print_string += f"\nData group {self.title}."
-        for data in self.datas:
+        for data in self.data:
             print_string += f"\n{data}"
         print_string += "\n------------" + "-" * len(self.title)
         return print_string
@@ -285,7 +285,7 @@ def read(filename: str, title: str = "") -> DataGroup:
     AssertionError
         If the specified format of the csv file is not met.
     """
-    datas = []
+    data = []
     label = None
     with open(filename, "r") as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',', strict=True)
@@ -325,11 +325,11 @@ def read(filename: str, title: str = "") -> DataGroup:
                     lower_y_values.append(float(sub_row[1]))
                     upper_y_values.append(float(sub_row[2]))
                 tag = Tag(number_disks, aspect_ratio, x_unit, y_unit, type)
-                datas.append(Data(tag, x_values, lower_y_values, upper_y_values))
+                data.append(Data(tag, x_values, lower_y_values, upper_y_values))
     if title:
         label = title
     assert label
-    data_group = DataGroup(label, datas)
+    data_group = DataGroup(label, data)
     return data_group
 
 
@@ -471,7 +471,7 @@ def convert_data(data_group: DataGroup, x_unit: XUnit, y_unit: YUnit) -> None:
     y_unit : YUnit
         The desired unit on the y-axis.
     """
-    for data in data_group.datas:
+    for data in data_group.data:
         data.x_values = convert_x(data.x_values, data.tag.x_unit, x_unit)
         data.tag.x_unit = x_unit
         data.y_values = convert_y(data.y_values, data.tag.y_unit, y_unit)
