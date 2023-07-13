@@ -1,3 +1,6 @@
 *.h5
+*.pdf
+historic_venv/
 CPP/StraightECMC/build/
 CPP/StraightECMC/bin/
+__pycache__/
