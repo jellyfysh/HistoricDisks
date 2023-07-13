@@ -34,7 +34,7 @@ for its dependencies.
 * For a (slower) debug build, use the following cmake commands:
   ```console
   cmake . -B debug_build/ -D CMAKE_BUILD_TYPE=Debug
-  cmake --build debug_bild
+  cmake --build debug_build
   ```
 * Run by `./bin/StraightEcmc Nx Ny eta slant length_factor shape out_file in_file`, where `Nx`, `Ny`, ..., `out_file`
   are command-line arguments. Their meanings are explained in the [Input](#input) section. As an example, a run
@@ -88,7 +88,7 @@ The parameters featured in both are:
 * `length_factor`: proportional to the length of run, positive integer. By default, the `length_factor` is set to one, 
   and the program runs for roughly 200000000 collisions, corresponding to roughly 20 seconds on a laptop
   with Intel CORE i7 9th Gen. When setting to a value other than one, the length of the run is multiplied by the value 
-  of `length_factor`. It is recommended to do a test run with `lenth_factor` set to 1 and adjust it according to
+  of `length_factor`. It is recommended to do a test run with `length_factor` set to 1 and adjust it according to
   the time of the run. As there is no dependence of length of run on the number of disks, larger systems requires
   larger `length_factor` in general.
 * `shape`: string representing the shape of the system, could be either "square", "rectangle", or "crystal".
