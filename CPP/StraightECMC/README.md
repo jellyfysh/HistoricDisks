@@ -39,7 +39,11 @@ for its dependencies.
 * Run by `./bin/StraightEcmc Nx Ny eta slant length_factor shape out_file in_file`, where `Nx`, `Ny`, ..., `out_file`
   are command-line arguments. Their meanings are explained in the [Input](#input) section. As an example, a run
   that can be featured in one of the blue points in FIG. 9(b) is created by
-  executing `./bin/StraightEcmc 9 8 0.708 0 1 square output.h5 dummy.h5`. However, when producing the results, we used a
+  executing 
+  ```console
+  ./bin/StraightEcmc 9 8 0.708 0 1 square output.h5 dummy.h5
+  ``` 
+  This run takes roughly 20 seconds on a laptop with Intel CORE i7 9th Gen. However, when producing the results in the paper, we used a
   much longer run.
 
 ### Conventions
